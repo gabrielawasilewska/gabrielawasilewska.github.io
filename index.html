@@ -1,7 +1,27 @@
+<!--<?php
+
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off') {
+  header("Location: https://accelerateme.co/");
+  exit();  
+}
+
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67864944-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-67864944-3');
+    </script>
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,6 +43,9 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
   </head>
 
@@ -55,14 +78,14 @@
                 <a class="nav-link js-scroll-trigger" href="#news">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="faq.html">FAQ</a>
+                <a class="nav-link js-scroll-trigger" href="faq">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="contactus.html">Contact Us</a>
+                <a class="nav-link js-scroll-trigger" href="/contactus">Contact Us</a>
               </li>
             </ul>
           </div>
-          <a class="btn btn-apply navbar-brand pull-right" href="application.html">APPLY</a>
+          <a class="btn btn-apply navbar-brand pull-right" href="/application">APPLY</a>
         </div>
       </nav>
 
@@ -74,9 +97,9 @@
           <div class="intro-text">
             <img class="img-fluid d-block mx-auto" src="img/AME_logo(for_dark).png" width="768px">
             <div class="intro-lead-in"></div>
-            <div class="intro-heading text-uppercase">The Acclerator for students by students</div>
+            <div class="intro-heading text-uppercase">The Accelerator for students by students</div>
             <a class="btn btn-findoutmore btn-lg text-uppercase js-scroll-trigger" href="#services">Find Out More</a>
-            <a class="btn btn-apply btn-lg text-uppercase js-scroll-trigger" href="application.html">Apply</a>
+            <a class="btn btn-apply btn-lg text-uppercase js-scroll-trigger" href="application">Apply</a>
           </div>
         </div>
       </div>
@@ -219,7 +242,7 @@
                   </div>
                 </li>
                 <li class="timeline-inverted">
-                  <a href="application.html">
+                  <a href="application">
                   <div class="timeline-image">
                   <h4>Take the
                     <br>journey
@@ -249,6 +272,7 @@
           </div>
     
       <div id="accordion" role="tablist">
+        
         <div class="card invis-card">
   
           <div class="card-header invis-card" role="tab" id="headingOne">
