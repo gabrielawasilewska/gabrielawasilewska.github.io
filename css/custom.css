@@ -221,27 +221,8 @@
     color: #fff
 }
 
-.tabs {
-    font-family: "lucida grande", sans-serif;
-  }
-  
-  [role="tablist"] {
-    margin: 0 0 -.1em;
-    overflow: visible;
-  }
-  
-  [role="tab"] {
-    position: relative;
-    margin: 0;
-    padding: .3em .5em .4em;
-    border: 1px solid hsl(219, 1%, 72%);
-    border-radius: .2em .2em 0 0;
-    box-shadow: 0 0 .2em hsl(219, 1%, 72%);
-    overflow: visible;
-    font-family: inherit;
-    font-size: inherit;
-    background: hsl(220, 20%, 94%);
-  }
+.tabs
+
   
   [role="tab"]:hover::before,
   [role="tab"]:focus::before,
