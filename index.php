@@ -1,11 +1,11 @@
-<!-- <?php
+<?php
 
 if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off') {
   header("Location: https://accelerateme.co/");
   exit();  
 }
 
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +85,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off') {
               </li>
             </ul>
           </div>
-          <a class="btn btn-apply navbar-brand pull-right" href="/application">APPLY</a>
+         <!-- <a class="btn btn-apply navbar-brand pull-right" href="/application">APPLY</a> -->
         </div>
       </nav>
 
@@ -99,7 +99,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == 'off') {
             <div class="intro-lead-in"></div>
             <div class="intro-heading text-uppercase">The Accelerator for students by students</div>
             <a class="btn btn-findoutmore btn-lg text-uppercase js-scroll-trigger" href="#services">Find Out More</a>
-            <a class="btn btn-apply btn-lg text-uppercase js-scroll-trigger" href="application">Apply</a>
+           <!-- <a class="btn btn-apply btn-lg text-uppercase js-scroll-trigger" href="application">Apply</a> -->
           </div>
         </div>
       </div>
