@@ -47,4 +47,10 @@
     $(".navbar").removeClass("d-none");
   })
 
+  var $accordion = $('#accordion');
+  $accordion.on('show','.collapse',function() {
+    $accordion.find('.collapse.in').collapse('hide');
+  });
+  
+
 })(jQuery); // End of use strict
